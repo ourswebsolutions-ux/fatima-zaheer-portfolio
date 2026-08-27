@@ -244,7 +244,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Lahore, Pakistan</p>
+                    <p className="text-muted-foreground">Karachi, Pakistan</p>
                   </div>
                 </div>
               </CardContent>
