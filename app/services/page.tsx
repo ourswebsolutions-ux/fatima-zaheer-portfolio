@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Sushmeela's Services - Best Content Writing & SEO Copywriting",
+  title: "Ramsha khan's Services - Best Content Writing & SEO Copywriting",
   description:
     "Hire Ramsha Khanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "professional content writing services",
     "content writer Karachi",
   ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Ramsha khan" }],
   openGraph: {
-    title: "Sushmeela's Services - Best Content Writing & SEO in Pakistan",
+    title: "Ramsha khan's Services - Best Content Writing & SEO in Pakistan",
     description:
       "Ramsha Khanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela's Services - Best Content Writing & SEO",
+    title: "Ramsha khan's Services - Best Content Writing & SEO",
     description:
       "Hire Ramsha Khanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
@@ -67,12 +67,12 @@ export const metadata: Metadata = {
       serviceType: "Content Writing",
       provider: {
         "@type": "Person",
-        name: "Sushmeela",
+        name: "Ramsha khan",
       },
       url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
+        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
       ],
       description:
         "Ramsha Khanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",

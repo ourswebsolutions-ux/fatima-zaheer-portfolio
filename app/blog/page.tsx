@@ -10,9 +10,9 @@ import { Calendar, Clock, Search, ArrowRight } from "lucide-react"
 import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Sushmeela's Blog - Best Content Writing Tips & SEO Insights",
+  title: "Ramsha khan's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Sushmeela's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
+    "Explore Ramsha khan's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
   keywords: [
     "Ramsha Khanblog",
     "best content writing services",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "content writer Karachi contact number",
   ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Ramsha khan" }],
   openGraph: {
-    title: "Sushmeela's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Sushmeela, a top writer in Pakistan.",
+    title: "Ramsha khan's Blog - Content Writing Tips & SEO Insights",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Ramsha khan, a top writer in Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela's Blog - Content Writing & SEO Tips",
+    title: "Ramsha khan's Blog - Content Writing & SEO Tips",
     description:
-      "Read Sushmeela's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
+      "Read Ramsha khan's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -76,19 +76,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Sushmeela's Content Writing Blog",
+  name: "Ramsha khan's Content Writing Blog",
   author: {
     "@type": "Person",
-    name: "Sushmeela",
+    name: "Ramsha khan",
   },
   url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
+        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Sushmeela's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "Ramsha khan's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };

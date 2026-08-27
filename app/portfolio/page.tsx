@@ -9,9 +9,9 @@ import { Footer } from "@/components/footer"
 import { ExternalLink} from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Sushmeela's Portfolio - SEO Content & Copywriting",
+  title: "Ramsha khan's Portfolio - SEO Content & Copywriting",
   description:
-    "Explore Sushmeela's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
+    "Explore Ramsha khan's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
   keywords: [
   "Ramsha Khanportfolio",
   "content writing portfolio",
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Ramsha khan" }],
   openGraph: {
-    title: "Sushmeela's Portfolio - Content Writing & SEO",
+    title: "Ramsha khan's Portfolio - Content Writing & SEO",
     description:
-      "View Sushmeela's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
+      "View Ramsha khan's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
     type: "website",
     url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
     images: [
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sushmeela's Portfolio - Content Writing & SEO",
+    title: "Ramsha khan's Portfolio - Content Writing & SEO",
     description:
-      "Discover Sushmeela's portfolio showcasing SEO content, blog writing, and copywriting projects.",
+      "Discover Ramsha khan's portfolio showcasing SEO content, blog writing, and copywriting projects.",
     images: ["/worldwideartical.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -76,18 +76,18 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Sushmeela's Content Writing Portfolio",
+      name: "Ramsha khan's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Sushmeela",
+        name: "Ramsha khan",
       },
       url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
+        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
       ],
       description:
-        "Sushmeela's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
+        "Ramsha khan's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
     }),
   },
 };

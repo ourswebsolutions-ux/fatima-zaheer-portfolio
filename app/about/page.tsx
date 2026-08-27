@@ -13,9 +13,9 @@ import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 export const metadata: Metadata = {
   title: "About Ramsha Khan- Expert Content Writer & SEO Copywriter",
   description:
-    "Learn about Sushmeela, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
+    "Learn about Ramsha khan, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
   keywords: [
-  "Sushmeela",
+  "Ramsha khan",
   "content writer",
   "best content writing services",
   "content writing services in Pakistan",
@@ -36,16 +36,16 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Ramsha khan" }],
   openGraph: {
     title: "About Ramsha Khan- Expert Content Writer",
     description:
-      "Discover Sushmeela's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
+      "Discover Ramsha khan's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
     type: "website",
     url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
     images: [
       {
-        url: "/aboutme.webp", // Replace with a relevant image for the About page
+        url: "/about-rmshs.jpeg", // Replace with a relevant image for the About page
         width: 1200,
         height: 630,
         alt: "Ramsha Khan- Content Writer Profile",
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Ramsha Khan- Expert Content Writer",
     description:
-      "Learn about Sushmeela's expertise in SEO content, blog writing, and copywriting for impactful business content.",
-    images: ["/aboutme.webp"], // Replace with your actual image
+      "Learn about Ramsha khan's expertise in SEO content, blog writing, and copywriting for impactful business content.",
+    images: ["/about-rmshs.jpeg"], // Replace with your actual image
   },
   alternates: {
     canonical: "https://storycup.vercel.app/about", // Replace with your actual About page URL
@@ -78,12 +78,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Sushmeela",
+      name: "Ramsha khan",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela", // Replace with your actual LinkedIn
-        "https://twitter.com/Sushmeela", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
+        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
       ],
       description:
         "Ramsha Khanis a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
@@ -102,7 +102,7 @@ export default function AboutPage() {
         <section className="text-center mb-16">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/aboutme.webp?height=128&width=128"
+              src="/about-rmshs.jpeg?height=128&width=128"
               alt="Rimsha"
               fill
               className="rounded-full border-4 border-primary/20"
@@ -286,7 +286,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <CardTitle>Bachelor of English Literature</CardTitle>
-                    <p className="text-muted-foreground">National University • 2015 - 2019</p>
+                    <p className="text-muted-foreground">National University • 2013 - 2014</p>
                   </div>
                 </div>
               </CardHeader>
@@ -304,8 +304,8 @@ export default function AboutPage() {
                     <Award className="h-6 w-6 text-blue" />
                   </div>
                   <div>
-                    <CardTitle>HubSpot Content Marketing Certified</CardTitle>
-                    <p className="text-muted-foreground">HubSpot Academy • 2023</p>
+                    <CardTitle>Master of Science — Biotechnology	2012</CardTitle>
+                    <p className="text-muted-foreground">University of Karachi, Pakistan</p>
                   </div>
                 </div>
               </CardHeader>

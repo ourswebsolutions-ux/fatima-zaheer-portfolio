@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Sushmeela" }],
+  authors: [{ name: "Ramsha khan" }],
   openGraph: {
     title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
     description:
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Sushmeela",
+      name: "Ramsha khan",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Sushmeela",
-        "https://twitter.com/Sushmeela",
+        "https://www.linkedin.com/in/Ramsha khan",
+        "https://twitter.com/Ramsha khan",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "Contact Sushmeela, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "Contact Ramsha khan, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }

@@ -6,12 +6,12 @@ import { Download } from "lucide-react"
 export function DownloadResumeButton() {
   const handleDownloadResume = async () => {
     try {
-      const response = await fetch("/sushmilaresume.pdf")
+      const response = await fetch("/ramsha.pdf")
       const blob = await response.blob()
 
       const link = document.createElement("a")
       link.href = URL.createObjectURL(blob)
-      link.setAttribute("download", "sushmilaresume.pdf")
+      link.setAttribute("download", "ramsha.pdf")
       link.style.display = "none"
       document.body.appendChild(link)
       link.click()
