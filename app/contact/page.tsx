@@ -223,7 +223,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                       rkvirgo90@gmail.com
+                       robinaramzan143@gmail.com
                     </p>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+92 3232109265</p>
+                    <p className="text-muted-foreground">+92 3217387374</p>
                   </div>
                 </div>
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Karachi, Pakistan</p>
+                    <p className="text-muted-foreground">Khushab, Punjab, Pakistan</p>
                   </div>
                 </div>
               </CardContent>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                   </Button>
                   <Button size="icon" variant="outline" asChild>
                     <a
-                      href="/"
+                      href="/https://www.linkedin.com/in/seo-robina-ramzan-4a4b1734b"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -276,7 +276,7 @@ export default function ContactPage() {
                   </Button>
                   <Button size="icon" variant="outline" asChild>
   <a
-    href="mailto:rkvirgo90@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
+    href="mailto:robinaramzan143@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
     aria-label="Send email"
   >
     <Mail className="h-4 w-4" />

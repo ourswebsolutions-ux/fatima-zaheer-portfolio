@@ -11,10 +11,10 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ramsha Khan - Expert Content Writer & SEO Copywriter",
+  title: "Robina Ramzan - Expert Content Writer & SEO Copywriter",
 
   description:
-    "Discover Ramsha Khan's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "DiscoverRobina Ramzan's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
     "content writer",
@@ -23,41 +23,41 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Ramsha Khan portfolio",
+    "Robina Ramzan portfolio",
     "storycup",
   ],
 
   icons: {
-    icon: "/rimsha.png",
-    shortcut: "/rimsha.png",
-    apple: "/rimsha.png",
+    icon: "/robina.png",
+    shortcut: "/robina.png",
+    apple: "/robina.png",
   },
 
-  authors: [{ name: "Ramsha Khan" }],
+  authors: [{ name: "Robina Ramzan" }],
 
   openGraph: {
-    title: "Ramsha Khan - Expert Content Writer & Copywriter",
+    title: "Robina Ramzan - Expert Content Writer & Copywriter",
     description:
-      "Explore Ramsha Khan's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "ExploreRobina Ramzan's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
       {
-        url: "/rimsha.png",
+        url: "/robina.png",
         width: 1200,
         height: 630,
-        alt: "Ramsha Khan Content Writing Portfolio",
+        alt: "Robina Ramzan Content Writing Portfolio",
       },
     ],
-    siteName: "Ramsha Khan Portfolio",
+    siteName: "Robina Ramzan Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Ramsha Khan - Expert Content Writer & Copywriter",
+    title: "Robina Ramzan - Expert Content Writer & Copywriter",
     description:
-      "Explore Ramsha Khan's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
-    images: ["/rimsha.png"],
+      "ExploreRobina Ramzan's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+    images: ["/robina.png"],
   },
 
   alternates: {

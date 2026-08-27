@@ -9,11 +9,11 @@ import { Footer } from "@/components/footer"
 import { ExternalLink} from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Ramsha khan's Portfolio - SEO Content & Copywriting",
+  title: "Robina Ramzan's Portfolio - SEO Content & Copywriting",
   description:
-    "Explore Ramsha khan's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
+    "ExploreRobina Ramzan's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
   keywords: [
-  "Ramsha Khanportfolio",
+  "Robina Ramzanportfolio",
   "content writing portfolio",
   "best content writing services",
   "content writing services in Pakistan",
@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Ramsha khan" }],
+  authors: [{ name: "Robina Ramzan" }],
   openGraph: {
-    title: "Ramsha khan's Portfolio - Content Writing & SEO",
+    title: "Robina Ramzan's Portfolio - Content Writing & SEO",
     description:
-      "View Ramsha khan's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
+      "ViewRobina Ramzan's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
     type: "website",
     url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/worldwideartical.jpg", // Replace with a relevant image for the Portfolio page
         width: 1200,
         height: 630,
-        alt: "Ramsha KhanContent Writing Portfolio",
+        alt: "Robina RamzanContent Writing Portfolio",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Robina RamzanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ramsha khan's Portfolio - Content Writing & SEO",
+    title: "Robina Ramzan's Portfolio - Content Writing & SEO",
     description:
-      "Discover Ramsha khan's portfolio showcasing SEO content, blog writing, and copywriting projects.",
+      "DiscoverRobina Ramzan's portfolio showcasing SEO content, blog writing, and copywriting projects.",
     images: ["/worldwideartical.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -76,18 +76,18 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Ramsha khan's Content Writing Portfolio",
+      name: "Robina Ramzan's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Ramsha khan",
+        name: "Robina Ramzan",
       },
       url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
       sameAs: [
-        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
-        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
+        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
       ],
       description:
-        "Ramsha khan's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
+        "Robina Ramzan's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
     }),
   },
 };

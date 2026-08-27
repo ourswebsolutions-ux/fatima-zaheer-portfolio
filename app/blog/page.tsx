@@ -10,11 +10,11 @@ import { Calendar, Clock, Search, ArrowRight } from "lucide-react"
 import {Metadata} from "next"
 
 export const metadata: Metadata = {
-  title: "Ramsha khan's Blog - Best Content Writing Tips & SEO Insights",
+  title: "Robina Ramzan's Blog - Best Content Writing Tips & SEO Insights",
   description:
-    "Explore Ramsha khan's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
+    "ExploreRobina Ramzan's blog for expert tips on content writing, SEO content, and blog writing from Pakistan's top writer.",
   keywords: [
-    "Ramsha Khanblog",
+    "Robina Ramzanblog",
     "best content writing services",
     "content writing services in Pakistan",
     "article writing services in Pakistan",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "content writer Karachi contact number",
   ],
-  authors: [{ name: "Ramsha khan" }],
+  authors: [{ name: "Robina Ramzan" }],
   openGraph: {
-    title: "Ramsha khan's Blog - Content Writing Tips & SEO Insights",
-    description: "Discover expert content writing tips, SEO strategies, and blog writing insights from Ramsha khan, a top writer in Pakistan.",
+    title: "Robina Ramzan's Blog - Content Writing Tips & SEO Insights",
+    description: "Discover expert content writing tips, SEO strategies, and blog writing insights fromRobina Ramzan, a top writer in Pakistan.",
     type: "website",
     url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
     images: [
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
         url: "/blog-og-image.jpg", // Replace with a relevant image for the Blog page
         width: 1200, // Fixed: Changed from 00 to 1200
         height: 630,
-        alt: "Ramsha KhanBlog - Content Writing Tips",
+        alt: "Robina RamzanBlog - Content Writing Tips",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Robina RamzanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ramsha khan's Blog - Content Writing & SEO Tips",
+    title: "Robina Ramzan's Blog - Content Writing & SEO Tips",
     description:
-      "Read Ramsha khan's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
+      "ReadRobina Ramzan's blog for top content writing, SEO, and blog writing tips from Pakistan to USA, Dubai, and Australia.",
     images: ["/bBiography.webp"], // Replace with your actual image
   },
   alternates: {
@@ -76,19 +76,19 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Ramsha khan's Content Writing Blog",
+  name: "Robina Ramzan's Content Writing Blog",
   author: {
     "@type": "Person",
-    name: "Ramsha khan",
+    name: "Robina Ramzan",
   },
   url: "https://storycup.vercel.app/blog", // Replace with your actual Blog page URL
       sameAs: [
-        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
-        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
+        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
         "https://wa.me/+923181463435", // Replace with your actual WhatsApp number
       ],
       description:
-        "Ramsha khan's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
+        "Robina Ramzan's blog offers expert insights on content writing, SEO content, blog writing, and copywriting, serving clients in Pakistan, Karachi, USA, Dubai, Australia, and UK.",
     }),
   },
 };
@@ -97,35 +97,35 @@ export const metadata: Metadata = {
 const blogPosts = [
 {
   id: 1,
-  title: "PAKISTAN'S FIRST SMART-TECH TOWER",
+  title: "John Batty Faces Cocaine and Cannabis Supply Allegations",
   excerpt: "Learn practical tips to improve your blog writing and keep readers hooked from start to finish.",
-  image: "/tow.png?height=200&width=400",
+  image: "/blog1.webp?height=200&width=400",
   category: "Blog Writing",
   date: "2024-04-10",
   readTime: "6 min read",
-  liveUrl: "https://chakorventures.com/",
+  liveUrl: "https://ahkrice.com/rice-guide/expand-idaho-basmati-rice-supply-through-ahk-rice-exports/",
   featured: true,
 },
   {
     id: 2,
-    title: "Crafting High-Converting Website Copy",
+    title: "What to Look For Before Hiring Airbnb End-of-Lease Cleaning",
     excerpt: "Discover the elements that make web copy persuasive, SEO-friendly, and effective for conversions.",
-    image: "/it.png?height=200&width=400",
+    image: "/blog2.webp?height=200&width=400",
     category: "Website Copy",
     date: "2024-04-05",
     readTime: "7 min read",
-    liveUrl: "https://intelisenseit.com",
+    liveUrl: "https://beecleaningservices.co.uk/blogs/what-should-you-look-for-before-hiring-airbnb-end-of-lease-cleaning/",
     featured: true,
   },
   {
     id: 3,
-    title: "How to Write Press Releases Journalists Actually Read",
+    title: "Expand Idaho Basmati Rice Supply Through AHK Rice Exports",
     excerpt: "A guide to writing compelling, professional press releases that get published.",
-    image: "/110sol.png?height=200&width=400",
+    image: "/blog3.webp?height=200&width=400",
     category: "Press Release",
     date: "2024-03-28",
     readTime: "5 min read",
-    liveUrl: "https://110solutionsinc.com/",
+    liveUrl: "https://liverpoolstandard.co.uk/crime/john-batty-faces-cocaine-and-cannabis-supply-allegations-liverpool/",
     featured: false,
   },
   {
@@ -135,7 +135,7 @@ const blogPosts = [
     image: "/6i.png?height=200&width=400",
     category: "SEO Content",
     date: "2024-03-20",
-    liveUrl: "https://6itrade.com",
+    liveUrl: "https://docs.google.com/document/d/1p5ucX7SlsvDmDDu8jLg-FVS1g_Ub9V-Lb20rDLC2yMo/edit?usp=sharing",
     readTime: "8 min read",
     featured: false,
   },

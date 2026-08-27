@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 import { DownloadResumeButton } from "@/components/DownloadResumeButton"
 
 export const metadata: Metadata = {
-  title: "About Ramsha Khan- Expert Content Writer & SEO Copywriter",
+  title: "AboutRobina Ramzan- Expert Content Writer & SEO Copywriter",
   description:
-    "Learn about Ramsha khan, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
+    "Learn aboutRobina Ramzan, a skilled content writer specializing in SEO content, blog writing, and copywriting for brands and businesses.",
   keywords: [
-  "Ramsha khan",
+  "Robina Ramzan",
   "content writer",
   "best content writing services",
   "content writing services in Pakistan",
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   "content writer rates per word",
   "content writer Karachi contact number",
 ],
-  authors: [{ name: "Ramsha khan" }],
+  authors: [{ name: "Robina Ramzan" }],
   openGraph: {
-    title: "About Ramsha Khan- Expert Content Writer",
+    title: "AboutRobina Ramzan- Expert Content Writer",
     description:
-      "Discover Ramsha khan's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
+      "DiscoverRobina Ramzan's journey as a content writer, specializing in SEO, blog writing, and persuasive copy for businesses.",
     type: "website",
     url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
     images: [
@@ -48,16 +48,16 @@ export const metadata: Metadata = {
         url: "/about-rmshs.jpeg", // Replace with a relevant image for the About page
         width: 1200,
         height: 630,
-        alt: "Ramsha Khan- Content Writer Profile",
+        alt: "Robina Ramzan- Content Writer Profile",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Robina RamzanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Ramsha Khan- Expert Content Writer",
+    title: "AboutRobina Ramzan- Expert Content Writer",
     description:
-      "Learn about Ramsha khan's expertise in SEO content, blog writing, and copywriting for impactful business content.",
+      "Learn aboutRobina Ramzan's expertise in SEO content, blog writing, and copywriting for impactful business content.",
     images: ["/about-rmshs.jpeg"], // Replace with your actual image
   },
   alternates: {
@@ -78,15 +78,15 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Ramsha khan",
+      name: "Robina Ramzan",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://storycup.vercel.app/about", // Replace with your actual About page URL
       sameAs: [
-        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
-        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
+        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
       ],
       description:
-        "Ramsha Khanis a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
+        "Robina Ramzanis a professional content writer with expertise in SEO content, blog writing, and copywriting, delivering engaging content for businesses and brands.",
     }),
   },
 };
@@ -102,7 +102,7 @@ export default function AboutPage() {
         <section className="text-center mb-16">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/about-rmshs.jpeg?height=128&width=128"
+              src="/about-dp.jpeg?height=128&width=128"
               alt="Rimsha"
               fill
               className="rounded-full border-4 border-primary/20"
@@ -304,8 +304,8 @@ export default function AboutPage() {
                     <Award className="h-6 w-6 text-blue" />
                   </div>
                   <div>
-                    <CardTitle>Master of Science — Biotechnology	2012</CardTitle>
-                    <p className="text-muted-foreground">University of Karachi, Pakistan</p>
+                    <CardTitle>EDUCATIONAL UNIVERSITY</CardTitle>
+                    <p className="text-muted-foreground">Bachelor of Mathmatics</p>
                   </div>
                 </div>
               </CardHeader>

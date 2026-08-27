@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Ramsha khan's Services - Best Content Writing & SEO Copywriting",
+  title: "Robina Ramzan's Services - Best Content Writing & SEO Copywriting",
   description:
-    "Hire Ramsha Khanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "HireRobina Ramzanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
     "content writing services in Pakistan",
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     "professional content writing services",
     "content writer Karachi",
   ],
-  authors: [{ name: "Ramsha khan" }],
+  authors: [{ name: "Robina Ramzan" }],
   openGraph: {
-    title: "Ramsha khan's Services - Best Content Writing & SEO in Pakistan",
+    title: "Robina Ramzan's Services - Best Content Writing & SEO in Pakistan",
     description:
-      "Ramsha Khanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Robina Ramzanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
         width: 1200,
         height: 630,
-        alt: "Ramsha KhanBest Content Writing Services",
+        alt: "Robina RamzanBest Content Writing Services",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Robina RamzanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ramsha khan's Services - Best Content Writing & SEO",
+    title: "Robina Ramzan's Services - Best Content Writing & SEO",
     description:
-      "Hire Ramsha Khanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
+      "HireRobina Ramzanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
       serviceType: "Content Writing",
       provider: {
         "@type": "Person",
-        name: "Ramsha khan",
+        name: "Robina Ramzan",
       },
       url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
       sameAs: [
-        "https://www.linkedin.com/in/Ramsha khan", // Replace with your actual LinkedIn
-        "https://twitter.com/Ramsha khan", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
+        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
       ],
       description:
-        "Ramsha Khanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Robina Ramzanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
         "Pakistan",
         "Karachi",

@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
+  title: "ContactRobina Ramzan- Best Content Writer in Pakistan",
   description:
-    "Contact Ramsha Khanfor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "ContactRobina Ramzanfor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Ramsha khan" }],
+  authors: [{ name: "Robina Ramzan" }],
   openGraph: {
-    title: "Contact Ramsha Khan- Best Content Writer in Pakistan",
+    title: "ContactRobina Ramzan- Best Content Writer in Pakistan",
     description:
-      "Reach Ramsha Khanfor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
+      "ReachRobina Ramzanfor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Contact Ramsha Khanfor Content Writing Services",
+        alt: "ContactRobina Ramzanfor Content Writing Services",
       },
     ],
-    siteName: "Ramsha KhanPortfolio",
+    siteName: "Robina RamzanPortfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Ramsha Khan- Content Writing Services",
+    title: "ContactRobina Ramzan- Content Writing Services",
     description:
-      "Get in touch with Ramsha Khanfor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
+      "Get in touch withRobina Ramzanfor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Ramsha khan",
+      name: "Robina Ramzan",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Ramsha khan",
-        "https://twitter.com/Ramsha khan",
+        "https://www.linkedin.com/in/Robina Ramzan",
+        "https://twitter.com/Robina Ramzan",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "Contact Ramsha khan, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "ContactRobina Ramzan, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }
