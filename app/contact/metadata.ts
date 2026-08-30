@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "ContactRobina Ramzan- Best Content Writer in Pakistan",
+  title: "ContactFatima Zaheer - Best Content Writer in Pakistan",
   description:
-    "ContactRobina Ramzanfor top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "ContactFatima Zaheer for top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Robina Ramzan" }],
+  authors: [{ name: "Fatima Zaheer " }],
   openGraph: {
-    title: "ContactRobina Ramzan- Best Content Writer in Pakistan",
+    title: "ContactFatima Zaheer - Best Content Writer in Pakistan",
     description:
-      "ReachRobina Ramzanfor expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
+      "ReachFatima Zaheer for expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ContactRobina Ramzanfor Content Writing Services",
+        alt: "ContactFatima Zaheer for Content Writing Services",
       },
     ],
-    siteName: "Robina RamzanPortfolio",
+    siteName: "Fatima Zaheer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ContactRobina Ramzan- Content Writing Services",
+    title: "ContactFatima Zaheer - Content Writing Services",
     description:
-      "Get in touch withRobina Ramzanfor SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
+      "Get in touch withFatima Zaheer for SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Robina Ramzan",
+      name: "Fatima Zaheer ",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Robina Ramzan",
-        "https://twitter.com/Robina Ramzan",
+        "https://www.linkedin.com/in/Fatima Zaheer ",
+        "https://twitter.com/Fatima Zaheer ",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "ContactRobina Ramzan, a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "ContactFatima Zaheer , a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }

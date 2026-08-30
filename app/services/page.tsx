@@ -7,9 +7,9 @@ import { Footer } from "@/components/footer"
 import { CheckCircle, FileText, PenLine, Search, Newspaper, MessageCircle } from "lucide-react"
 import { Metadata } from "next"
 export const metadata: Metadata = {
-  title: "Robina Ramzan's Services - Best Content Writing & SEO Copywriting",
+  title: "Fatima Zaheer 's Services - Best Content Writing & SEO Copywriting",
   description:
-    "HireRobina Ramzanfor top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
+    "HireFatima Zaheer for top content writing services in Pakistan, including SEO content, blog writing, and copywriting to elevate your brand.",
   keywords: [
     "best content writing services",
     "content writing services in Pakistan",
@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     "professional content writing services",
     "content writer Karachi",
   ],
-  authors: [{ name: "Robina Ramzan" }],
+  authors: [{ name: "Fatima Zaheer " }],
   openGraph: {
-    title: "Robina Ramzan's Services - Best Content Writing & SEO in Pakistan",
+    title: "Fatima Zaheer 's Services - Best Content Writing & SEO in Pakistan",
     description:
-      "Robina Ramzanoffers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
+      "Fatima Zaheer offers expert content writing services in Pakistan, including SEO content, blog writing, and copywriting for businesses worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
     images: [
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg", // Replace with a relevant image for the Services page
         width: 1200,
         height: 630,
-        alt: "Robina RamzanBest Content Writing Services",
+        alt: "Fatima Zaheer Best Content Writing Services",
       },
     ],
-    siteName: "Robina RamzanPortfolio",
+    siteName: "Fatima Zaheer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Robina Ramzan's Services - Best Content Writing & SEO",
+    title: "Fatima Zaheer 's Services - Best Content Writing & SEO",
     description:
-      "HireRobina Ramzanfor professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
+      "HireFatima Zaheer for professional content writing, SEO content, and blog writing services in Pakistan and beyond.",
     images: ["/services-og-image.jpg"], // Replace with your actual image
   },
   alternates: {
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
       serviceType: "Content Writing",
       provider: {
         "@type": "Person",
-        name: "Robina Ramzan",
+        name: "Fatima Zaheer ",
       },
       url: "https://storycup.vercel.app/services", // Replace with your actual Services page URL
       sameAs: [
-        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
-        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
+        "https://www.linkedin.com/in/Fatima Zaheer ", // Replace with your actual LinkedIn
+        "https://twitter.com/Fatima Zaheer ", // Replace with your actual Twitter
       ],
       description:
-        "Robina Ramzanprovides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
+        "Fatima Zaheer provides top content writing services in Pakistan, specializing in SEO content, blog writing, article writing, and copywriting for businesses globally.",
       areaServed: [
         "Pakistan",
         "Karachi",

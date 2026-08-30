@@ -11,8 +11,8 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center">
   <img
-    src="/robina.png"
-    alt="Robina Ramzan Logo"
+    src="/logo.png"
+    alt="Fatima Zaheer  Logo"
     className="h-auto w-[150px] max-w-full object-contain sm:w-[200px] md:w-[220px] lg:w-[240px]"
   />
 </div>
@@ -25,7 +25,7 @@ export function Footer() {
                 </Link>
               </Button> */}
               <Button size="icon" variant="ghost" asChild>
-                <Link href="https://www.linkedin.com/in/seo-robina-ramzan-4a4b1734b" target="_blank">
+                <Link href="https://www.linkedin.com/in/fatima-zaheer-contentwriter" target="_blank">
                   <Linkedin className="h-4 w-4" />
                 </Link>
               </Button>
@@ -35,7 +35,7 @@ export function Footer() {
                 </Link>
               </Button>
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto: robinaramzan143@gmail.com">
+                <Link href="mailto: fatimasheikhnew@gmail.com ">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -94,20 +94,20 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-muted-foreground"> robinaramzan143@gmail.com</span>
+                <span className="text-muted-foreground"> fatimasheikhnew@gmail.com </span>
               </li>
               <li>
-                <span className="text-muted-foreground">+92 3217387374</span>
+                <span className="text-muted-foreground">+92 3706287765</span>
               </li>
               <li>
-                <span className="text-muted-foreground">Khushab, Punjab, Pakistan</span>
+                <span className="text-muted-foreground">Faisalabad, Punjab , Pakistan </span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Robina Ramzan. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fatima Zaheer . All rights reserved.</p>
         </div>
       </div>
     </footer>

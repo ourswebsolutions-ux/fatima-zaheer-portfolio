@@ -11,10 +11,10 @@ import FloatingWhatsApp from "@/components/floating-whatsapp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Robina Ramzan - Expert Content Writer & SEO Copywriter",
+  title: "Fatima Zaheer  - Expert Content Writer & SEO Copywriter",
 
   description:
-    "DiscoverRobina Ramzan's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
+    "DiscoverFatima Zaheer 's professional content writing portfolio. Expert in SEO content, blog writing, and copywriting to boost engagement and rankings.",
 
   keywords: [
     "content writer",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "copywriting",
     "content strategy",
     "freelance writer",
-    "Robina Ramzan portfolio",
+    "Fatima Zaheer  portfolio",
     "storycup",
   ],
 
@@ -33,12 +33,12 @@ export const metadata: Metadata = {
     apple: "/robina.png",
   },
 
-  authors: [{ name: "Robina Ramzan" }],
+  authors: [{ name: "Fatima Zaheer " }],
 
   openGraph: {
-    title: "Robina Ramzan - Expert Content Writer & Copywriter",
+    title: "Fatima Zaheer  - Expert Content Writer & Copywriter",
     description:
-      "ExploreRobina Ramzan's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
+      "ExploreFatima Zaheer 's portfolio of engaging blog posts, SEO content, and persuasive copywriting for businesses and brands.",
     type: "website",
     url: "https://storycup.vercel.app/",
     images: [
@@ -46,17 +46,17 @@ export const metadata: Metadata = {
         url: "/robina.png",
         width: 1200,
         height: 630,
-        alt: "Robina Ramzan Content Writing Portfolio",
+        alt: "Fatima Zaheer  Content Writing Portfolio",
       },
     ],
-    siteName: "Robina Ramzan Portfolio",
+    siteName: "Fatima Zaheer  Portfolio",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Robina Ramzan - Expert Content Writer & Copywriter",
+    title: "Fatima Zaheer  - Expert Content Writer & Copywriter",
     description:
-      "ExploreRobina Ramzan's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
+      "ExploreFatima Zaheer 's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
     images: ["/robina.png"],
   },
 

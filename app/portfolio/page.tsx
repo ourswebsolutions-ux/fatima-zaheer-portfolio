@@ -1,65 +1,72 @@
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/components/ui/tabs"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { ExternalLink} from "lucide-react"
+import { ExternalLink } from "lucide-react"
 import { Metadata } from "next"
+
 export const metadata: Metadata = {
-  title: "Robina Ramzan's Portfolio - SEO Content & Copywriting",
+  title: "Fatima Zaheer's Portfolio | Professional Content Writing",
   description:
-    "ExploreRobina Ramzan's content writing portfolio, featuring SEO content, blog posts, and copywriting projects for businesses.",
+    "Explore Fatima Zaheer's professional writing portfolio featuring website content, SEO copywriting, YouTube scripts, LinkedIn content, email campaigns, product descriptions, and press releases.",
   keywords: [
-  "Robina Ramzanportfolio",
-  "content writing portfolio",
-  "best content writing services",
-  "content writing services in Pakistan",
-  "article writing services in Pakistan",
-  "best SEO content writer in Pakistan",
-  "freelance content writer",
-  "SEO copywriting",
-  "blog writing portfolio",
-  "professional content writing services",
-  "content writer Karachi",
-  "content writing in Dubai",
-  "best copywriter in USA",
-  "freelance copywriter Australia",
-  "real estate content writer",
-  "marketing content writer",
-  "web content writer",
-  "best content writing websites",
-  "content writer rates per word",
-  "content writer Karachi contact number",
-],
-  authors: [{ name: "Robina Ramzan" }],
+    "Fatima Zaheer portfolio",
+    "content writing portfolio",
+    "SEO content writer",
+    "professional content writer",
+    "website content writer",
+    "SEO copywriter",
+    "YouTube script writer",
+    "LinkedIn content writer",
+    "email copywriter",
+    "product description writer",
+    "press release writer",
+    "content writer Pakistan",
+    "freelance content writer",
+    "copywriting portfolio",
+    "digital content writer",
+  ],
+  authors: [{ name: "Fatima Zaheer" }],
   openGraph: {
-    title: "Robina Ramzan's Portfolio - Content Writing & SEO",
+    title: "Fatima Zaheer's Portfolio | Professional Content Writing",
     description:
-      "ViewRobina Ramzan's professional portfolio of SEO content, blog posts, and persuasive copywriting for brands and businesses.",
+      "A selection of professional content writing projects including website copy, SEO content, scripts, social media campaigns, email marketing, and product content.",
     type: "website",
-    url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
+    url: "https://storycup.vercel.app/portfolio",
     images: [
       {
-        url: "/worldwideartical.jpg", // Replace with a relevant image for the Portfolio page
+        url: "/worldwideartical.jpg",
         width: 1200,
         height: 630,
-        alt: "Robina RamzanContent Writing Portfolio",
+        alt: "Fatima Zaheer Content Writing Portfolio",
       },
     ],
-    siteName: "Robina RamzanPortfolio",
+    siteName: "Fatima Zaheer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Robina Ramzan's Portfolio - Content Writing & SEO",
+    title: "Fatima Zaheer's Portfolio | Content Writing",
     description:
-      "DiscoverRobina Ramzan's portfolio showcasing SEO content, blog writing, and copywriting projects.",
-    images: ["/worldwideartical.jpg"], // Replace with your actual image
+      "Explore professional content writing, SEO copywriting, scripts, campaigns, product content, and website copy.",
+    images: ["/worldwideartical.jpg"],
   },
   alternates: {
-    canonical: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
+    canonical: "https://storycup.vercel.app/portfolio",
   },
   robots: {
     index: true,
@@ -76,128 +83,185 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Robina Ramzan's Content Writing Portfolio",
+      name: "Fatima Zaheer's Content Writing Portfolio",
       author: {
         "@type": "Person",
-        name: "Robina Ramzan",
+        name: "Fatima Zaheer",
       },
-      url: "https://storycup.vercel.app/portfolio", // Replace with your actual Portfolio page URL
-      sameAs: [
-        "https://www.linkedin.com/in/Robina Ramzan", // Replace with your actual LinkedIn
-        "https://twitter.com/Robina Ramzan", // Replace with your actual Twitter
-      ],
+      url: "https://storycup.vercel.app/portfolio",
       description:
-        "Robina Ramzan's portfolio showcases professional content writing, including SEO content, blog posts, and copywriting for businesses and brands.",
+        "Professional content writing portfolio featuring website copy, SEO copywriting, YouTube scripts, LinkedIn content, email campaigns, product descriptions, and press releases.",
     }),
   },
-};
+}
 
 const projects = [
   {
     id: 1,
-    title: "Al-Innovation-Article -",
+    title: "SEO Website Content",
     description:
-      "A comprehensive article on the future of AI in business, published on Al-Innovation.",
-    image: "/Al-Innovation-Article.webp?height=300&width=500",
-    category: "Articles",
-    technologies: ["SEO", "Blog Writing", "Content Strategy"],
-    liveUrl: "	https://www.centricdxb.com/insights/b2b-sales-funnel",
-    githubUrl: "#",
+      "Developed search-engine-friendly website content designed to communicate brand value clearly while targeting relevant keywords and improving organic visibility.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    category: "Website Content",
+    technologies: [
+      "SEO Writing",
+      "Keyword Research",
+      "Website Copy",
+    ],
+    liveUrl: "https://www.centricdxb.com/insights/b2b-sales-funnel",
     featured: true,
   },
   {
     id: 2,
-    title: "Biography Script for YouTube",
+    title: "YouTube Biography Script",
     description:
-      "A detailed biography script for a YouTube channel, highlighting the life and achievements of a notable figure.",
-    image: "/bBiography.webp?height=300&width=500",
+      "Created an engaging long-form biography script structured for YouTube storytelling, audience retention, and clear presentation of a subject's life and achievements.",
+    image:
+      "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80",
     category: "Scripts",
-    technologies: ["YouTube", "Scripting", "Tech Writing"],
-    liveUrl: "https://www.centricdxb.com/insights/what-is-direct-marketing",
-    githubUrl: "#",
+    technologies: [
+      "YouTube Writing",
+      "Storytelling",
+      "Research",
+    ],
+    liveUrl: "https://www.youtube.com/",
     featured: true,
   },
   {
     id: 3,
-    title: "Cryptocurrency Founder Campaign",
+    title: "LinkedIn Personal Branding",
     description:
-      "Developed a personal branding campaign for a cryptocurrency founder, including LinkedIn posts and articles.",
-    image: "/Cryptocurrency.webp?height=300&width=500",
-    category: "Campaigns",
-    technologies: ["Personal Branding", "Storytelling", "LinkedIn"],
-    liveUrl: "https://docs.google.com/document/d/1R5ygAN744d5ZDCDW9KIUpT8w6FAI4tvT4Qz-",
-    githubUrl: "#",
+      "Developed professional LinkedIn content focused on personal branding, thought leadership, audience engagement, and building a consistent professional voice.",
+    image:
+      "https://images.unsplash.com/photo-1611944212129-29977ae1398c?auto=format&fit=crop&w=1200&q=80",
+    category: "Social Media",
+    technologies: [
+      "LinkedIn Content",
+      "Personal Branding",
+      "Copywriting",
+    ],
+    liveUrl: "https://www.linkedin.com/",
     featured: true,
   },
   {
     id: 4,
-    title: "Digital Marketing Documentation",
+    title: "E-Commerce Product Descriptions",
     description:
-      "Created comprehensive documentation for a digital marketing platform, including user guides and FAQs.",
-    image: "/Digital Marketing.webp?height=300&width=500",
-    category: "Documentation",
-    technologies: ["Technical Writing", "Markdown", "Help Center"],
-    liveUrl: "https://docs.google.com/document/d/1fJfpoB1pAwIUNyTlncIbGdGOkuxkjInmuz9jT_cdP3w/edit?tab=t.0",
-    githubUrl: "#",
+      "Created persuasive product descriptions that highlight key features, customer benefits, and buying points while maintaining a clear and conversion-focused tone.",
+    image:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+    category: "E-Commerce",
+    technologies: [
+      "Product Copy",
+      "Conversion Writing",
+      "SEO",
+    ],
+    liveUrl: "https://www.shopify.com/",
     featured: false,
   },
   {
     id: 5,
-    title: "Informative-Article ",
+    title: "Email Marketing Campaign",
     description:
-      "An informative article on the impact of social media on modern communication, focusing on trends and statistics.",
-    image: "/Informative-Article.webp?height=300&width=500",
-    category: "Articles",
-    technologies: ["Email Marketing", "Copywriting", "Campaign Design"],
-    liveUrl: "https://docs.google.com/document/d/1ArAjzfjEb-UGtkAn-EgSfwPFnb4r8c_2EdUc1myLg5M/edit?tab=t.0#heading=h.x4c673br8nv",
-    githubUrl: "#",
+      "Planned and wrote customer-focused email copy designed to capture attention, communicate value, encourage clicks, and support marketing campaign goals.",
+    image:
+      "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?auto=format&fit=crop&w=1200&q=80",
+    category: "Email Marketing",
+    technologies: [
+      "Email Copywriting",
+      "Marketing",
+      "CTA Writing",
+    ],
+    liveUrl: "https://mailchimp.com/",
     featured: false,
   },
   {
     id: 6,
-    title: "Finance Blog Post",
+    title: "Professional Press Release",
     description:
-      "A blog post discussing the latest trends in personal finance, including budgeting and investment tips.",
-    image: "/finance.webp?height=300&width=500",
-    category: "Documentation",
-    technologies: ["Open Source", "Markdown", "Technical Writing"],
-    liveUrl: "https://docs.google.com/document/d/13OhU8_g9z8dSSxtGFGazYMQ2RnOpHgRBHwgFrSt36Ns/edit?tab=t.0",
-    githubUrl: "#",
+      "Produced structured press release content with strong headlines, clear messaging, news-focused writing, and publication-ready formatting.",
+    image:
+      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80",
+    category: "Press Releases",
+    technologies: [
+      "PR Writing",
+      "News Writing",
+      "Media Content",
+    ],
+    liveUrl: "https://www.prnewswire.com/",
     featured: false,
   },
   {
     id: 7,
-    title: "Online Earning-Article",
+    title: "Real Estate Marketing Copy",
     description:
-      "An article exploring various online earning opportunities, from freelancing to affiliate marketing.",
-    image: "/Online Earning-Article.webp?height=300&width=500",
-    category: "Articles",
-    technologies: ["Open Source", "Markdown", "Technical Writing"],
-    liveUrl: "https://docs.google.com/document/d/12AYQKm8dYgmClzPtCYWX9lwtmqoVSgxQqYpoRt8Ic3w/edit?tab=t.0#heading=h.qnhn9o3lxevw",
-    githubUrl: "#",
+      "Created engaging real estate marketing copy for property listings, landing pages, and promotional campaigns focused on attracting qualified buyers.",
+    image:
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1200&q=80",
+    category: "Real Estate",
+    technologies: [
+      "Real Estate Copy",
+      "SEO",
+      "Marketing Content",
+    ],
+    liveUrl: "https://www.zillow.com/",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Technical Documentation",
+    description:
+      "Created easy-to-understand technical documentation, user guides, and structured help content to make complex information easier for users to follow.",
+    image:
+      "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1200&q=80",
+    category: "Documentation",
+    technologies: [
+      "Technical Writing",
+      "Documentation",
+      "User Guides",
+    ],
+    liveUrl: "https://www.notion.so/",
     featured: false,
   },
 ]
 
 export default function PortfolioPage() {
-  const categories = ["All", "Articles", "Scripts", "Campaigns", "Documentation"]
+  const categories = [
+    "All",
+    "Website Content",
+    "Scripts",
+    "Social Media",
+    "E-Commerce",
+    "Email Marketing",
+    "Press Releases",
+    "Real Estate",
+    "Documentation",
+  ]
 
   return (
     <div className="min-h-screen bg-background">
       <Header />
 
       <div className="container mx-auto px-4 py-12">
+
         {/* Hero Section */}
         <section className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">My Portfolio</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+            My Portfolio
+          </h1>
+
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A collection of writing projects that reflect my work across content strategy, blogs, campaigns, and scripts.
+            A selection of professional writing projects across website
+            content, SEO copywriting, scripts, personal branding,
+            marketing campaigns, product content, and technical writing.
           </p>
         </section>
 
         {/* Project Categories */}
         <Tabs defaultValue="All" className="mb-12">
-          <TabsList className="grid w-full grid-cols-5 max-w-2xl mx-auto">
+
+          <TabsList className="flex flex-wrap h-auto gap-1 w-full max-w-5xl mx-auto justify-center">
             {categories.map((category) => (
               <TabsTrigger key={category} value={category}>
                 {category}
@@ -207,76 +271,142 @@ export default function PortfolioPage() {
 
           {categories.map((category) => (
             <TabsContent key={category} value={category}>
+
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
                 {projects
-                  .filter((project) => category === "All" || project.category === category)
+                  .filter(
+                    (project) =>
+                      category === "All" ||
+                      project.category === category
+                  )
                   .map((project) => (
-                    <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+
+                    <Card
+                      key={project.id}
+                      className="overflow-hidden hover:shadow-lg transition-shadow"
+                    >
+
+                      {/* Project Image */}
                       <div className="relative h-48">
+
                         <Image
-                          src={project.image || "/placeholder.svg"}
+                          src={project.image}
                           alt={project.title}
                           fill
                           className="object-cover"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                         />
-                        {project.featured && <Badge className="absolute top-4 left-4">Featured</Badge>}
+
+                        {project.featured && (
+                          <Badge className="absolute top-4 left-4">
+                            Featured
+                          </Badge>
+                        )}
+
                       </div>
+
                       <CardHeader>
+
                         <div className="flex items-center justify-between">
-                          <Badge variant="secondary">{project.category}</Badge>
+                          <Badge variant="secondary">
+                            {project.category}
+                          </Badge>
                         </div>
-                        <CardTitle className="text-xl">{project.title}</CardTitle>
+
+                        <CardTitle className="text-xl">
+                          {project.title}
+                        </CardTitle>
+
                       </CardHeader>
+
                       <CardContent>
-                        <p className="text-muted-foreground mb-4">{project.description}</p>
+
+                        <p className="text-muted-foreground mb-4">
+                          {project.description}
+                        </p>
+
                         <div className="flex flex-wrap gap-2 mb-4">
+
                           {project.technologies.map((tech) => (
-                            <Badge key={tech} variant="outline" className="text-xs">
+                            <Badge
+                              key={tech}
+                              variant="outline"
+                              className="text-xs"
+                            >
                               {tech}
                             </Badge>
                           ))}
+
                         </div>
+
                         <div className="flex gap-2">
+
                           <Button size="sm" asChild>
-                            <Link href={project.liveUrl} target="_blank">
+                            <a
+                              href={project.liveUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               <ExternalLink className="mr-2 h-3 w-3" />
-                              Live Demo
-                            </Link>
+                              View Work
+                            </a>
                           </Button>
-                          {/* <Button size="sm" variant="outline" asChild>
-                            <Link href={project.githubUrl} target="_blank">
-                              <Youtube className="mr-2 h-3 w-3 text-red-600" />
-                              Video
-                            </Link>
-                          </Button> */}
+
                         </div>
+
                       </CardContent>
+
                     </Card>
+
                   ))}
+
               </div>
+
             </TabsContent>
           ))}
+
         </Tabs>
 
         {/* Call to Action */}
         <section className="text-center py-16">
+
           <Card className="max-w-2xl mx-auto">
+
             <CardContent className="p-8">
-              <h2 className="text-2xl font-bold mb-4">Interested in Working Together?</h2>
+
+              <h2 className="text-2xl font-bold mb-4">
+                Have a Writing Project in Mind?
+              </h2>
+
               <p className="text-muted-foreground mb-6">
-                I'm always open to discussing new opportunities and meaningful content projects.
+                Whether you need website content, SEO copywriting,
+                scripts, marketing copy, or professional business
+                content, let's create something valuable together.
               </p>
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
                 <Button size="lg" asChild>
-                  <Link href="/contact">Get In Touch</Link>
+                  <Link href="/contact">
+                    Get In Touch
+                  </Link>
                 </Button>
+
                 <Button size="lg" variant="outline" asChild>
-                  <Link href="/services">View Services</Link>
+                  <Link href="/services">
+                    View Services
+                  </Link>
                 </Button>
+
               </div>
+
             </CardContent>
+
           </Card>
+
         </section>
+
       </div>
 
       <Footer />

@@ -223,7 +223,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="text-muted-foreground">
-                       robinaramzan143@gmail.com
+                       fatimasheikhnew@gmail.com 
                     </p>
                   </div>
                 </div>
@@ -234,7 +234,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+92 3217387374</p>
+                    <p className="text-muted-foreground">+92 3706287765</p>
                   </div>
                 </div>
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Khushab, Punjab, Pakistan</p>
+                    <p className="text-muted-foreground">Faisalabad, Punjab , Pakistan </p>
                   </div>
                 </div>
               </CardContent>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                   </Button>
                   <Button size="icon" variant="outline" asChild>
                     <a
-                      href="/https://www.linkedin.com/in/seo-robina-ramzan-4a4b1734b"
+                      href="https://www.linkedin.com/in/fatima-zaheer-contentwriter"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -276,7 +276,7 @@ export default function ContactPage() {
                   </Button>
                   <Button size="icon" variant="outline" asChild>
   <a
-    href="mailto:robinaramzan143@gmail.com?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
+    href="mailto:fatimasheikhnew@gmail.com ?subject=Contact%20Ramsha%20Khan&body=Hello%20Ramsha,"
     aria-label="Send email"
   >
     <Mail className="h-4 w-4" />
@@ -308,7 +308,7 @@ export default function ContactPage() {
             <CardContent className="p-0">
               <div className="overflow-hidden rounded-b-lg">
                 <iframe
-  src="https://www.google.com/maps?q=Karachi,+Pakistan&output=embed"
+  src="https://www.google.com/maps?q=Faisalabad,+Pakistan&output=embed"
   width="100%"
   height="400"
   style={{ border: 0 }}
