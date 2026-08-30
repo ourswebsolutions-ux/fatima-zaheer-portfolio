@@ -84,7 +84,7 @@ export default function HomePage() {
                   </Link>
                 </Button>
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="https://www.linkedin.com/in/seo-robina-ramzan-4a4b1734b" target="_blank">
+                  <Link href="https://www.linkedin.com/in/fatima-zaheer-contentwriter" target="_blank">
                     <Linkedin className="h-5 w-5" />
                   </Link>
                 </Button>
