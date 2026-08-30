@@ -125,7 +125,7 @@ const projects = [
       "Storytelling",
       "Research",
     ],
-    liveUrl: "https://www.youtube.com/",
+    liveUrl: "https://rondasomontano.com/revista/188782/herramientas-de-ia-amigables-para-los-estudiantes-la-clave-de-la-excelencia-academica/",
     featured: true,
   },
   {
@@ -141,7 +141,7 @@ const projects = [
       "Personal Branding",
       "Copywriting",
     ],
-    liveUrl: "https://www.linkedin.com/",
+    liveUrl: "https://www.goinformation.info/7425/reformulation-du-texte-peut-elle-aider-les-etudiants-a-ameliorer-capacites-redactionnelles/",
     featured: true,
   },
   {
@@ -157,7 +157,7 @@ const projects = [
       "Conversion Writing",
       "SEO",
     ],
-    liveUrl: "https://www.shopify.com/",
+    liveUrl: "https://tecnowiz.net/come-riassumere-un-articolo-senza-plagiarlo/",
     featured: false,
   },
   {
@@ -173,7 +173,7 @@ const projects = [
       "Marketing",
       "CTA Writing",
     ],
-    liveUrl: "https://mailchimp.com/",
+    liveUrl: "https://zipboard.co/blog/uncategorized/the-role-of-ai-paraphrasing-tools-in-content-creation/",
     featured: false,
   },
   {
@@ -189,7 +189,7 @@ const projects = [
       "News Writing",
       "Media Content",
     ],
-    liveUrl: "https://www.prnewswire.com/",
+    liveUrl: "https://www.bankingsupport.info/",
     featured: false,
   },
   {
@@ -205,7 +205,7 @@ const projects = [
       "SEO",
       "Marketing Content",
     ],
-    liveUrl: "https://www.zillow.com/",
+    liveUrl: "https://jornaldobairroalto.com.br/",
     featured: false,
   },
   {
@@ -221,7 +221,7 @@ const projects = [
       "Documentation",
       "User Guides",
     ],
-    liveUrl: "https://www.notion.so/",
+    liveUrl: "https://jornaljoseensenews.com.br/",
     featured: false,
   },
 ]
