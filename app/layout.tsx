@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   ],
 
   icons: {
-    icon: "/robina.png",
-    shortcut: "/robina.png",
-    apple: "/robina.png",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 
   authors: [{ name: "Fatima Zaheer " }],
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     url: "https://storycup.vercel.app/",
     images: [
       {
-        url: "/robina.png",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Fatima Zaheer  Content Writing Portfolio",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     title: "Fatima Zaheer  - Expert Content Writer & Copywriter",
     description:
       "ExploreFatima Zaheer 's portfolio of engaging blog posts, SEO content, and persuasive copywriting.",
-    images: ["/robina.png"],
+    images: ["/logo.png"],
   },
 
   alternates: {
