@@ -111,22 +111,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I am a Fatima Zaheer. I am a content writer with 5 years of experience creating engaging, well-researched, and high-quality content for businesses across various industries.
-My Expertise Includes:
-• Article Writing
-• Blog Writing
-• Website Content Writing
-• Landing Page Content
-• Product Descriptions
-• Copywriting
-• SEO Content Writing
-• Guest Posts
-• Business Content
-• Marketing Content
-• AI-Assisted Content Creation
-• Content Editing & Proofreading
-Over the years, I have worked on a wide range of content projects, delivering content tailored to different audiences, industries, and business goals. From informative blog posts to compelling website copy, I am committed to creating content that provides value, maintains quality, and supports business growth.
-I am passionate about creating content that informs, engages, and inspires readers while helping brands establish credibility and connect with their target audience.
+            I’m Fatima Zaheer, a content writer with 5 years of experience creating engaging, well-researched, and SEO-focused content for businesses across various industries. My expertise includes blog and article writing, website and landing page content, product descriptions, copywriting, guest posts, marketing content, AI-assisted content creation, editing, and proofreading. I focus on creating valuable, audience-focused content that builds brand credibility, engages readers, and supports business growth.
           </p>
 
           <DownloadResumeButton />
